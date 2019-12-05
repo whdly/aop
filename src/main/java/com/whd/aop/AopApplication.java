@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class AopApplication {
 	
-	@RequestMapping("/")
+	@RequestMapping("/springhello")
 	public String hello(){
 		return "hello springboot!";
 	}
